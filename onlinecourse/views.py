@@ -144,7 +144,7 @@ def exam_result(request, course_id, submission_id):
             msg='alert-success'
         else:
             msg='alert-danger'
-        choices.append([choice.question.id,choice.c,msg])        
+        choices.append([choice.q.id,choice.c,msg])        
     questions = Question.objects.filter(course=course)
     grade=0
     maxgrade=0
