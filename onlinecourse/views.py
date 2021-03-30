@@ -109,7 +109,7 @@ def extract_answers(request):
     for key in request.POST:
         if key.startswith('choice'):
             choice_id = request.POST[key]
-            choice = Choices.objects.get(id=int(choice_id))
+            choice = Choice.objects.get(id=int(choice_id))
             sub_answers.append(choice)
     return sub_answers        
 
