@@ -25,7 +25,7 @@
                         {% csrf_token %}
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Username" name="username" >
-                            <input type="password" class="form-control" placeholder="Username" name="psw" >
+                            <input type="password" class="form-control" placeholder="password" name="psw" >
                             <button class="btn btn-primary" type="submit">Login</button>
                             <a class="btn btn-link" href="{% url 'onlinecourse:registration' %}">Sign Up</a>
                         </div>
@@ -38,7 +38,7 @@
 
     <!-- Page content -->
     {% if course_list %}
-        <div class="container">
+        <div class="container" style="margin-top:30px ">
             <div class="card-deck">
                 {% for course in course_list %}
                          <div class="card" style="width: 36rem;">
@@ -61,5 +61,11 @@
     {% else %}
         <p>No courses are available.</p>
     {% endif %}
+
+    <div class="container-fluid bg-light ">
+        
+        <h5 style="margin-top:100px ">DEVELOPER :<p class="text-success" style="display:inline-flex">GANESH RAJENDRA BAJAJ</p></h5>
+        
+    </div>
 </body>
 </html>
