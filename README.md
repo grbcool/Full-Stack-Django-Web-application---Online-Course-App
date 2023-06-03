@@ -1,7 +1,6 @@
 As a part of IBM course,
  
-Designed and implemented a full-stack Django web application. Added assessment features to an online course app, allowing instructors to create exams and learners to complete courses by passing the exams. Leveraged Django models, templates, and views along with Bootstrap and CSS to successfully deliver the project.
-
+Designed and implemented a full-stack Django web application. Integrated assessment features to an online course app which allows instructors to create exams and learners to complete courses by passing the exams.
 
 Link to the website : http://gbonlinecourse.eu-gb.mybluemix.net/onlinecourse/
 
